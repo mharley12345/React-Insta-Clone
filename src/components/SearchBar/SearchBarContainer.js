@@ -5,12 +5,15 @@ import './SearchBar.css';
 
 const SearchBar = () => {
   return (
+
     <div className="search-bar-wrapper">
-      <div className='fa-instagram' alt="instagram logo"  />
+      <div className='fa-instagram' id='igLogo'alt="instagram logo"  />
      
       <div>
         <input type="text" placeholder="Search" />
-        <i className='fa fa-search'/>
+        <button onSubmit="alert:No Match Found">
+                  <i className='fa fa-search'  />
+                  </button>
       </div>
       <div className="social-wrapper">
         <div className="social">

@@ -4,7 +4,7 @@
     line-height: 70px;
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    background: lightcoral;
   }
   
   .image-wrapper {
@@ -20,6 +20,6 @@
   }
   
   .social {
-    width: 40px;
-    height: 40px;
+    width:  90px;
+    height: 90px;
   }
