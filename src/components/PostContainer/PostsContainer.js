@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from './Post';
 import './Posts.css';
+import PostPage from './PostContainer/PostsContainer'
 
 const PostsContainer = props => {
   return (
@@ -10,4 +11,4 @@ const PostsContainer = props => {
   );
 };
 
-export default PostsContainer;
+export default PostsContainer

@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CommentSection from '../CommentSection/CommentSectionContainer';
+import CommentSection from '/CommentSection/CommentSectionContainer';
 import LikeSection from './LikeSection';
 import PostHeader from './PostHeader';
-
+import Render from 'react-doe'
 import './Posts.css';
 
 class Post extends React.Component {
@@ -52,4 +52,4 @@ Post.propTypes = {
   })
 };
 
-export default Post;
+export default Posts;
