@@ -23,23 +23,23 @@ class App extends Component {
     });
     this.setState({ filteredPosts: posts });
   };
-  render() {
-    return (
-      <div className="App">
-        <SearchBar
-          searchTerm={this.state.searchTerm}
-          searchPosts={this.searchPostsHandler}
+//   render() {
+//     return (
+//       <div className="App">
+//         <SearchBar
+//           searchTerm={this.state.searchTerm}
+//           searchPosts={this.searchPostsHandler}
        
-        <PostsContainer
-          posts
-            this.state.filteredPosts.length
-               this.state.filteredPosts
-               this.state.posts/>
+//         <PostsContainer
+//           posts
+//             this.state.filteredPosts.length
+//                this.state.filteredPosts
+//                this.state.posts/>
           
        
-      </div>
-    );
-  }
-}
+//       </div>
+//     );
+//   }
+// }
 
-export default App;
+// export default App;
