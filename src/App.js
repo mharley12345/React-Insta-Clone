@@ -29,14 +29,14 @@ class App extends Component {
         <SearchBar
           searchTerm={this.state.searchTerm}
           searchPosts={this.searchPostsHandler}
-        />
+       
         <PostsContainer
           posts
             this.state.filteredPosts.length
                this.state.filteredPosts
-               this.state.posts
+               this.state.posts/>
           
-        />
+       
       </div>
     );
   }
