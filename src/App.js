@@ -9,6 +9,7 @@ class App extends Component {
     super();
     this.state = {};
   }
+<<<<<<< HEAD
 
   render(PostPage) {
     return (
@@ -22,3 +23,36 @@ class App extends Component {
 const ComponentFromWithAuthenticate = withAuthenticate('../Posts')(LoginPage);
 
 export default App;
+=======
+  componentDidMount() {
+    this.setState({ posts: dummyData });
+  }
+  searchPostsHandler = e => {
+    const posts = this.state.posts.filter(p => {
+      if (p.username.includes(e.target.value)) {
+        return p;
+      }
+    });
+    this.setState({ filteredPosts: posts });
+  };
+//   render() {
+//     return (
+//       <div className="App">
+//         <SearchBar
+//           searchTerm={this.state.searchTerm}
+//           searchPosts={this.searchPostsHandler}
+       
+//         <PostsContainer
+//           posts
+//             this.state.filteredPosts.length
+//                this.state.filteredPosts
+//                this.state.posts/>
+          
+       
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+>>>>>>> 35cb99072835847f46a29bfa46efa1c8c93f04d0
