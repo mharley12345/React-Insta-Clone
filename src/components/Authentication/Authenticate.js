@@ -1,7 +1,8 @@
     
 import React from 'react';
+import LoginPage from '../Login/Login';
 
-const withAuthenticate = PostsPage => LoginPage =>
+const Authenticate = App =>
   class extends React.Component {
     constructor(props) {
       super(props);
@@ -17,9 +18,9 @@ const withAuthenticate = PostsPage => LoginPage =>
       }
     }
     render() {
-      if (this.state.loggedIn) return <PostsPage />;
+      if (this.state.loggedIn) return <App />;
       return <LoginPage />;
     }
   };
 
-export default withAuthenticate;
+export default Authenticate;
