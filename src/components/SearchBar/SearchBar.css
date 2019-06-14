@@ -3,7 +3,7 @@
     height: 80px;
     line-height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: lightcoral;
   }
   
@@ -20,7 +20,7 @@
   }
   
   .social {
-    width:  100px;
+    width:  40px;
    
   }
   #searchInput{
