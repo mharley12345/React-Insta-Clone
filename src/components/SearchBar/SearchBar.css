@@ -15,14 +15,9 @@
     height: 100%;
   }
   
-  .social-wrapper {
-    display: flex;
-  }
+ 
   
-  .social {
-    width:  40px;
-   
-  }
+  
   #searchInput{
     width:80%;
   }

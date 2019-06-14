@@ -1,7 +1,9 @@
 import React from 'react';
+
 import CameraLogo from '../assets/igcameralogo.png';
 import IGLogo from '../assets/iglogo.png';
 import styled from 'styled-components';
+
 
 
 
@@ -10,7 +12,7 @@ const Header = styled.header`
   height: 80px;
   line-height: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background: red;
 `;
 
@@ -25,12 +27,13 @@ const LogoImage = styled.img`
 `;
 
 const Divider = styled.span`
-  width: 50px;
+  width: 20px;
 `;
 
 const InputWrapper = styled.div`
   width: 300px;
-  margin: auto;
+  margin:auto;
+  margin-left: 6rem;
   display: flex;
 `;
 
@@ -41,8 +44,9 @@ const SearchInput = styled.input`
 `;
 
 const IconsWrapper = styled.div`
-  display: flex;
-  width: 300px;
+   width:300px;
+   display:flex;
+   align-items:center;
 `;
 const SearchIcon = styled.i`
   position: absolute;
@@ -51,8 +55,12 @@ const SearchIcon = styled.i`
   padding-left: 10px;
 `;
 const SocialDiv = styled.div`
-  width: 50px;
+  width: 20rem;
+  
+
+  
 `;
+
 const SearchBar = props => {
   return (
     <Header>
@@ -71,13 +79,13 @@ const SearchBar = props => {
       </InputWrapper>
       <IconsWrapper>
         <SocialDiv>
-          <i className="far fa-compass" />
+          <i className="far fa-compass" src="https://kit.fontawesome.com/aef825ebc9.js" />
         </SocialDiv>
         <SocialDiv>
-          <i className="far fa-heart" />
+          <i className="far fa-heart" src="https://kit.fontawesome.com/aef825ebc9.js" />
         </SocialDiv>
         <SocialDiv>
-          <i className="far fa-user-circle" />
+          <i className="far fa-user-circle" src="https://kit.fontawesome.com/aef825ebc9.js" />
         </SocialDiv>
       </IconsWrapper>
     </Header>
