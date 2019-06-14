@@ -1,3 +1,4 @@
+Live Preview  https://reverent-banach-e43612.netlify.com
 # React-Insta-Clone
 
 ## Introduction
