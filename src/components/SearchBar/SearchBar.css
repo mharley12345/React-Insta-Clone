@@ -3,7 +3,7 @@
     height: 80px;
     line-height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: lightcoral;
   }
   
@@ -15,14 +15,9 @@
     height: 100%;
   }
   
-  .social-wrapper {
-    display: flex;
-  }
+ 
   
-  .social {
-    width:  100px;
-   
-  }
+  
   #searchInput{
     width:80%;
   }
